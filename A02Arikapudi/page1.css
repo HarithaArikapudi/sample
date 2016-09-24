@@ -1,0 +1,68 @@
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /*width: 200px;*/
+    background-color: #333;
+    /*float:left;*/
+    overflow: hidden;
+    /*position: fixed;*/
+}
+
+li {
+     float: left;
+     /*font-size:20px;*/
+}
+div{
+    position: relative;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+background-color:black;
+}
+.video{
+    padding-right: 20%;    
+    float:left;
+    align-self: left;
+    margin-left:30%;
+    position: relative;
+    
+}
+p{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 2.5em;
+    color: white;
+
+}
+h2{
+    text-align: center;
+    color: white;
+
+}
+body{
+    background-color: black;
+    
+    background-image: url("cherry-berry-bubbles.jpg");
+}
+h3{
+    color:white;
+    font-style: italic;
+    font-family: "cursive";
+    text-align: right;
+}
+
